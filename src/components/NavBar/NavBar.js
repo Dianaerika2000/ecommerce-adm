@@ -8,9 +8,12 @@ import NavBarOption from './NavBarOption';
  */
 export default function NavBar({ navBarOptions }) {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
-      <div className="container ">
-        <span className="navbar-brand">Navbar</span>
+    <nav className="navbar navbar-expand-lg navbar-ligth custom-nav">
+      <div className="container custom-nav">
+        <a className="navbar-brand" href="">
+          <span className="material-symbols-outlined custom-color">restaurant</span>
+          <h5 className="">Comida Tipica Suarez</h5>
+        </a>
         <button
           className="navbar-toggler"
           type="button"

@@ -36,7 +36,7 @@ export default function AddEditCategoryPage() {
       // editar
       console.log(data);
       api
-        .put('categories/' + categoryId, data)
+        .put('categories/' + categoryId, JSON.stringify(data))
         .then((response) => {
           if (response.data.success) {
             setUpdated(true);

@@ -132,8 +132,9 @@ export default function AddEditProductECPage() {
               <h2>{productId ? 'Editar' : 'Adicionar'} producto</h2>
             </div>
             <div className="col text-end">
-              <Link to="/products-ec" className="btn btn-outline-primary">
-                Volver &raquo;
+              <Link to="/products-ec" className="btn btn-success">
+                Volver &nbsp;
+                <i className="bi bi-arrow-right-circle-fill" />
               </Link>
             </div>
           </div>
@@ -223,7 +224,7 @@ export default function AddEditProductECPage() {
               </div>
             </div>
             <div className="mb-3">
-              <button className="btn btn-primary">{productId ? 'Editar' : 'Adicionar'}</button>
+              <button className="btn btn-success">{productId ? 'Editar' : 'Adicionar'}</button>
             </div>
           </form>
         </div>
