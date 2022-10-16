@@ -45,7 +45,7 @@ export default function ProductsECPage() {
       <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">
         Cerrar
       </button>
-      <button type="button" className="btn btn-primary" onClick={eliminarProductoModal}>
+      <button type="button" className="btn btn-success" onClick={eliminarProductoModal}>
         Eliminar Producto
       </button>
     </>
@@ -55,8 +55,12 @@ export default function ProductsECPage() {
     <div className="container">
       <div className="row mb-2 mt-2">
         <div className="col">
-          <Link to="/product-ec/add" className="btn btn-primary">
-            Adicionar Producto
+          <h2>Listado de Productos</h2>
+        </div>
+        <div className="col-2 align-self-center d-flex justify-content-around">
+          <Link to="/product-ec/add" className="btn btn-success">
+            Adicionar Producto &nbsp;
+            <i class="bi bi-plus-circle-fill" />
           </Link>
         </div>
       </div>
@@ -79,10 +83,7 @@ export default function ProductsECPage() {
                     <td>{product.product_description}</td>
                     <td>{product.product_price}</td>
                     <td>
-                      <Link
-                        to={'/product-ec/edit/' + product.id}
-                        className="btn btn-outline-primary"
-                      >
+                      <Link to={'/product-ec/edit/' + product.id} className="btn btn-success mx-3">
                         Editar
                       </Link>
                       <ModalButton

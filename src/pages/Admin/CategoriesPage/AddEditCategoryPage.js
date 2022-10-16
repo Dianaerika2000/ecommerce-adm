@@ -86,7 +86,7 @@ export default function AddEditCategoryPage() {
         <div className="col-2 align-self-center d-flex justify-content-around">
           <Link className="btn btn-success" to="/categories">
             volver &nbsp;
-            <i class="bi bi-arrow-right-circle-fill" />
+            <i className="bi bi-arrow-right-circle-fill" />
           </Link>
         </div>
       </div>

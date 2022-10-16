@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
-
+import bgLogin from '../../assets/images/bg-login.png';
 const schema = yup
   .object({
     email: yup.string().email().required(),
@@ -53,8 +53,8 @@ export default function LoginPage() {
   };
   return (
     <div className="container">
-      <div className="row">
-        <div className="col-4 my-3">
+      <div className="row justify-content-center centrar">
+        <div className="col-5 my-3">
           <div className="Login">
             <h2>Login</h2>
             <form onSubmit={handleSubmit(handleLogin)}>
@@ -81,11 +81,14 @@ export default function LoginPage() {
                   <span className="badge text-bg-danger">This field is required</span>
                 )}
               </div>
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-success">
                 Submit
               </button>
             </form>
           </div>
+        </div>
+        <div className='col-4'>
+          <img src={bgLogin} className="img-fluid" alt='slide del loggin'/>
         </div>
       </div>
     </div>
