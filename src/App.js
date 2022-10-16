@@ -13,6 +13,8 @@ import AddEditProductECPage from './pages/Admin/ProductsECPage/AddEditProductECP
 
 // eslint-disable-next-line no-unused-vars
 import axiosInterceptor from './utility/axios-token-interceptor';
+import CategoriesPage from './pages/Admin/CategoriesPage/CategoriesPage';
+import AddEditCategoryPage from './pages/Admin/CategoriesPage/AddEditCategoryPage';
 
 /**
  * Main App component
@@ -22,13 +24,11 @@ import axiosInterceptor from './utility/axios-token-interceptor';
 const App = () => {
   // options
   let navBarOptions = {
-    main: [
-      { option: 'Home', to: '/' },
-
-    ],
+    main: [{ option: 'Home', to: '/' }],
     right: [
       { option: 'My Profile', to: '/my-profile', displayIfLoggedIn: true },
       { option: 'Products', to: '/products-ec', displayIfLoggedIn: true },
+      { option: 'Categories', to: '/categories', displayIfLoggedIn: true },
       { option: 'Login', to: '/login', displayIfLoggedIn: false },
       { option: 'Logout', to: '/logout', displayIfLoggedIn: true },
     ],
@@ -82,6 +82,32 @@ const App = () => {
             element={
               <PrivateRoute>
                 <AddEditProductECPage />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="categories"
+            element={
+              <PrivateRoute>
+                <CategoriesPage />
+              </PrivateRoute>
+            }
+          />
+          <Route path="category/edit">
+            <Route
+              path=":categoryId"
+              element={
+                <PrivateRoute>
+                  <AddEditCategoryPage />
+                </PrivateRoute>
+              }
+            />
+          </Route>
+          <Route
+            path="category/add"
+            element={
+              <PrivateRoute>
+                <AddEditCategoryPage />
               </PrivateRoute>
             }
           />
