@@ -38,7 +38,7 @@ export default function MyProfilePage() {
             />
             <hr />
             <div className="card-body">
-              <h5 className="card-title">Hola {user.name}</h5>
+              <h5 className="card-title">Hola, {user.name}</h5>
               <p className="card-text">
                 ID: {user.id}
                 <br />

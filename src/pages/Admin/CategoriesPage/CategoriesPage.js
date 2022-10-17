@@ -81,9 +81,12 @@ export default function CategoriesPage() {
                     <td>{category.category_name}</td>
                     <td>{category.category_description}</td>
                     <td>
-                      <Link to={'/category/edit/' + category.id} className="btn btn-success">
+                      <Link to={'/category/editar/' + category.id} className="btn btn-success">
                         Editar
                       </Link>
+                      {/* <Link to={'/category/edit/' + category.id} className="btn btn-success">
+                        Editar
+                      </Link> */}
                     </td>
                     <td>
                       <ModalButton

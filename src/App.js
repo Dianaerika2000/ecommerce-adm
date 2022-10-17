@@ -14,7 +14,10 @@ import AddEditProductECPage from './pages/Admin/ProductsECPage/AddEditProductECP
 // eslint-disable-next-line no-unused-vars
 import axiosInterceptor from './utility/axios-token-interceptor';
 import CategoriesPage from './pages/Admin/CategoriesPage/CategoriesPage';
-import AddEditCategoryPage from './pages/Admin/CategoriesPage/AddEditCategoryPage';
+import AddEditCategoryPage from './pages/Admin/CategoriesPage/AddEditCategoryPage'
+import EditCategoryPage from './pages/Admin/CategoriesPage/EditCategoryPage';
+
+
 
 /**
  * Main App component
@@ -103,6 +106,7 @@ const App = () => {
               }
             />
           </Route>
+          
           <Route
             path="category/add"
             element={
@@ -111,6 +115,16 @@ const App = () => {
               </PrivateRoute>
             }
           />
+          <Route path="category/editar">
+            <Route
+              path=":categoryId"
+              element={
+                <PrivateRoute>
+                  <EditCategoryPage />
+                </PrivateRoute>
+              }
+            />
+          </Route>
         </Routes>
       </div>
     </BrowserRouter>

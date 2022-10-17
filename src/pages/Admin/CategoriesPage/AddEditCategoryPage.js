@@ -29,14 +29,13 @@ export default function AddEditCategoryPage() {
 
   // states
   const [updated, setUpdated] = useState(false);
-
   // handlers
   const handleCategorySubmit = (data) => {
     if (categoryId) {
       // editar
       console.log(data);
       api
-        .put('categories/' + categoryId, JSON.stringify(data))
+        .put('categories/'+ categoryId, data)
         .then((response) => {
           if (response.data.success) {
             setUpdated(true);
@@ -95,7 +94,6 @@ export default function AddEditCategoryPage() {
           <form onSubmit={handleSubmit(handleCategorySubmit)}>
             <div className="mb-3">
               <label className="form-label">Nombre</label>
-              {/* <input type="text" className="form-control" {...register('category_name')} /> */}
               <input
                 type="text"
                 className="form-control"
