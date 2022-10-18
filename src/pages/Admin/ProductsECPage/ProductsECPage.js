@@ -60,7 +60,7 @@ export default function ProductsECPage() {
         <div className="col-2 align-self-center d-flex justify-content-around">
           <Link to="/product-ec/add" className="btn btn-success">
             Adicionar Producto &nbsp;
-            <i class="bi bi-plus-circle-fill" />
+            <i className="bi bi-plus-circle-fill" />
           </Link>
         </div>
       </div>
