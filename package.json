@@ -2,6 +2,7 @@
   "name": "es-react-boilerplate",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://Dianaerika2000.github.io/ecommerce-adm/build",
   "dependencies": {
     "@hookform/resolvers": "^2.9.8",
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,7 +12,6 @@
     "eslint": "8.22.0",
     "history": "^5.3.0",
     "moment": "^2.29.4",
-    "node-sass": "7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.35.0",
@@ -20,12 +20,14 @@
     "react-scripts": "5.0.1",
     "react-select": "^5.4.0",
     "redux-saga": "^1.2.1",
+    "sass": "^1.58.3",
     "sass-loader": "^12.3.0",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11",
     "yup-es": "^1.0.8"
   },
   "devDependencies": {
+    "gulp-sass": "^5.1.0",
     "prettier": "2.7.1"
   },
   "scripts": {
