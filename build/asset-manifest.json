@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.771cbe21.css",
-    "main.js": "/static/js/main.5a059584.js",
-    "static/js/787.00cbd180.chunk.js": "/static/js/787.00cbd180.chunk.js",
-    "static/media/bg-login.png": "/static/media/bg-login.538865e562d16150f7ad.png",
-    "static/media/slide1.png": "/static/media/slide1.11debe6cf16ebdbca834.png",
-    "static/media/slide3.png": "/static/media/slide3.c831a7d5cef585b6a560.png",
-    "static/media/slide2.png": "/static/media/slide2.e47780878d4a4e8afd4a.png",
-    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
-    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
-    "static/media/perfil.png": "/static/media/perfil.16de4b8d399f11bccee3.png",
-    "index.html": "/index.html",
-    "main.771cbe21.css.map": "/static/css/main.771cbe21.css.map",
-    "main.5a059584.js.map": "/static/js/main.5a059584.js.map",
-    "787.00cbd180.chunk.js.map": "/static/js/787.00cbd180.chunk.js.map"
+    "main.css": "/ecommerce-adm/build/static/css/main.bd465574.css",
+    "main.js": "/ecommerce-adm/build/static/js/main.d5b357f0.js",
+    "static/js/787.00cbd180.chunk.js": "/ecommerce-adm/build/static/js/787.00cbd180.chunk.js",
+    "static/media/bg-login.png": "/ecommerce-adm/build/static/media/bg-login.538865e562d16150f7ad.png",
+    "static/media/slide1.png": "/ecommerce-adm/build/static/media/slide1.11debe6cf16ebdbca834.png",
+    "static/media/slide3.png": "/ecommerce-adm/build/static/media/slide3.c831a7d5cef585b6a560.png",
+    "static/media/slide2.png": "/ecommerce-adm/build/static/media/slide2.e47780878d4a4e8afd4a.png",
+    "static/media/bootstrap-icons.woff?": "/ecommerce-adm/build/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/ecommerce-adm/build/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/perfil.png": "/ecommerce-adm/build/static/media/perfil.16de4b8d399f11bccee3.png",
+    "index.html": "/ecommerce-adm/build/index.html",
+    "main.bd465574.css.map": "/ecommerce-adm/build/static/css/main.bd465574.css.map",
+    "main.d5b357f0.js.map": "/ecommerce-adm/build/static/js/main.d5b357f0.js.map",
+    "787.00cbd180.chunk.js.map": "/ecommerce-adm/build/static/js/787.00cbd180.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.771cbe21.css",
-    "static/js/main.5a059584.js"
+    "static/css/main.bd465574.css",
+    "static/js/main.d5b357f0.js"
   ]
 }
